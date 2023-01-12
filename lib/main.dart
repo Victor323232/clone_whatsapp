@@ -10,6 +10,7 @@ void main() async {
   );
   runApp(MaterialApp(
     home: Login(),
+    debugShowCheckedModeBanner: false,
   ));
 }
 
