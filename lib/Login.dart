@@ -26,7 +26,15 @@ class _LoginState extends State<Login> {
               ),
               Padding(
                   padding: EdgeInsets.only(bottom: 8),
-
+                  child: TextField(
+                    autofocus: true,
+                    keyboardType: TextInputType.emailAddress,
+                    style: TextStyle(fontSize: 20),
+                    decoration: InputDecoration(
+                      contentPadding: EdgeInsets.fromLTRB(32, 16, 32, 16),
+                      hintText: "E-mail",
+                    ),
+                  ),
 
               ),
             ],
